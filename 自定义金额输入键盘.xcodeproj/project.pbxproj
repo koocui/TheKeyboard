@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B068DA42190180B003955A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B068DA32190180B003955A6 /* AppDelegate.swift */; };
+		1B068DA62190180B003955A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B068DA52190180B003955A6 /* ViewController.swift */; };
+		1B068DA92190180B003955A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B068DA72190180B003955A6 /* Main.storyboard */; };
+		1B068DAB2190180B003955A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B068DAA2190180B003955A6 /* Assets.xcassets */; };
+		1B068DAE2190180B003955A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B068DAC2190180B003955A6 /* LaunchScreen.storyboard */; };
+		1B068DB92190180B003955A6 /* _________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B068DB82190180B003955A6 /* _________Tests.swift */; };
+		1B068DC42190180B003955A6 /* _________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B068DC32190180B003955A6 /* _________UITests.swift */; };
+		1B068DD221901841003955A6 /* XCMoneyOfkeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B068DD121901841003955A6 /* XCMoneyOfkeyboard.swift */; };
+		1B9F37722194245B004775C2 /* fadsfaf.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9F37712194245B004775C2 /* fadsfaf.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B068DB52190180B003955A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B068D982190180B003955A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B068D9F2190180B003955A6;
+			remoteInfo = "自定义金额输入键盘";
+		};
+		1B068DC02190180B003955A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B068D982190180B003955A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B068D9F2190180B003955A6;
+			remoteInfo = "自定义金额输入键盘";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B068DA02190180B003955A6 /* 自定义金额输入键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义金额输入键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B068DA32190180B003955A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B068DA52190180B003955A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B068DA82190180B003955A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B068DAA2190180B003955A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B068DAD2190180B003955A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B068DAF2190180B003955A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B068DB42190180B003955A6 /* 自定义金额输入键盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义金额输入键盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B068DB82190180B003955A6 /* _________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_________Tests.swift"; sourceTree = "<group>"; };
+		1B068DBA2190180B003955A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B068DBF2190180B003955A6 /* 自定义金额输入键盘UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义金额输入键盘UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B068DC32190180B003955A6 /* _________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_________UITests.swift"; sourceTree = "<group>"; };
+		1B068DC52190180B003955A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B068DD121901841003955A6 /* XCMoneyOfkeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCMoneyOfkeyboard.swift; sourceTree = "<group>"; };
+		1B9F37712194245B004775C2 /* fadsfaf.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fadsfaf.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B068D9D2190180B003955A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B068DB12190180B003955A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B068DBC2190180B003955A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B068D972190180B003955A6 = {
+			isa = PBXGroup;
+			children = (
+				1B068DA22190180B003955A6 /* 自定义金额输入键盘 */,
+				1B068DB72190180B003955A6 /* 自定义金额输入键盘Tests */,
+				1B068DC22190180B003955A6 /* 自定义金额输入键盘UITests */,
+				1B068DA12190180B003955A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B068DA12190180B003955A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B068DA02190180B003955A6 /* 自定义金额输入键盘.app */,
+				1B068DB42190180B003955A6 /* 自定义金额输入键盘Tests.xctest */,
+				1B068DBF2190180B003955A6 /* 自定义金额输入键盘UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B068DA22190180B003955A6 /* 自定义金额输入键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				1B068DA32190180B003955A6 /* AppDelegate.swift */,
+				1B068DA52190180B003955A6 /* ViewController.swift */,
+				1B9F37712194245B004775C2 /* fadsfaf.xib */,
+				1B068DD121901841003955A6 /* XCMoneyOfkeyboard.swift */,
+				1B068DA72190180B003955A6 /* Main.storyboard */,
+				1B068DAA2190180B003955A6 /* Assets.xcassets */,
+				1B068DAC2190180B003955A6 /* LaunchScreen.storyboard */,
+				1B068DAF2190180B003955A6 /* Info.plist */,
+			);
+			path = "自定义金额输入键盘";
+			sourceTree = "<group>";
+		};
+		1B068DB72190180B003955A6 /* 自定义金额输入键盘Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B068DB82190180B003955A6 /* _________Tests.swift */,
+				1B068DBA2190180B003955A6 /* Info.plist */,
+			);
+			path = "自定义金额输入键盘Tests";
+			sourceTree = "<group>";
+		};
+		1B068DC22190180B003955A6 /* 自定义金额输入键盘UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B068DC32190180B003955A6 /* _________UITests.swift */,
+				1B068DC52190180B003955A6 /* Info.plist */,
+			);
+			path = "自定义金额输入键盘UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B068D9F2190180B003955A6 /* 自定义金额输入键盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B068DC82190180B003955A6 /* Build configuration list for PBXNativeTarget "自定义金额输入键盘" */;
+			buildPhases = (
+				1B068D9C2190180B003955A6 /* Sources */,
+				1B068D9D2190180B003955A6 /* Frameworks */,
+				1B068D9E2190180B003955A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义金额输入键盘";
+			productName = "自定义金额输入键盘";
+			productReference = 1B068DA02190180B003955A6 /* 自定义金额输入键盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B068DB32190180B003955A6 /* 自定义金额输入键盘Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B068DCB2190180B003955A6 /* Build configuration list for PBXNativeTarget "自定义金额输入键盘Tests" */;
+			buildPhases = (
+				1B068DB02190180B003955A6 /* Sources */,
+				1B068DB12190180B003955A6 /* Frameworks */,
+				1B068DB22190180B003955A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B068DB62190180B003955A6 /* PBXTargetDependency */,
+			);
+			name = "自定义金额输入键盘Tests";
+			productName = "自定义金额输入键盘Tests";
+			productReference = 1B068DB42190180B003955A6 /* 自定义金额输入键盘Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B068DBE2190180B003955A6 /* 自定义金额输入键盘UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B068DCE2190180B003955A6 /* Build configuration list for PBXNativeTarget "自定义金额输入键盘UITests" */;
+			buildPhases = (
+				1B068DBB2190180B003955A6 /* Sources */,
+				1B068DBC2190180B003955A6 /* Frameworks */,
+				1B068DBD2190180B003955A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B068DC12190180B003955A6 /* PBXTargetDependency */,
+			);
+			name = "自定义金额输入键盘UITests";
+			productName = "自定义金额输入键盘UITests";
+			productReference = 1B068DBF2190180B003955A6 /* 自定义金额输入键盘UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B068D982190180B003955A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "小崔fasdfff";
+				TargetAttributes = {
+					1B068D9F2190180B003955A6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					1B068DB32190180B003955A6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B068D9F2190180B003955A6;
+					};
+					1B068DBE2190180B003955A6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B068D9F2190180B003955A6;
+					};
+				};
+			};
+			buildConfigurationList = 1B068D9B2190180B003955A6 /* Build configuration list for PBXProject "自定义金额输入键盘" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B068D972190180B003955A6;
+			productRefGroup = 1B068DA12190180B003955A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B068D9F2190180B003955A6 /* 自定义金额输入键盘 */,
+				1B068DB32190180B003955A6 /* 自定义金额输入键盘Tests */,
+				1B068DBE2190180B003955A6 /* 自定义金额输入键盘UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B068D9E2190180B003955A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B068DAE2190180B003955A6 /* LaunchScreen.storyboard in Resources */,
+				1B068DAB2190180B003955A6 /* Assets.xcassets in Resources */,
+				1B068DA92190180B003955A6 /* Main.storyboard in Resources */,
+				1B9F37722194245B004775C2 /* fadsfaf.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B068DB22190180B003955A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B068DBD2190180B003955A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B068D9C2190180B003955A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B068DA62190180B003955A6 /* ViewController.swift in Sources */,
+				1B068DD221901841003955A6 /* XCMoneyOfkeyboard.swift in Sources */,
+				1B068DA42190180B003955A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B068DB02190180B003955A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B068DB92190180B003955A6 /* _________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B068DBB2190180B003955A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B068DC42190180B003955A6 /* _________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B068DB62190180B003955A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B068D9F2190180B003955A6 /* 自定义金额输入键盘 */;
+			targetProxy = 1B068DB52190180B003955A6 /* PBXContainerItemProxy */;
+		};
+		1B068DC12190180B003955A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B068D9F2190180B003955A6 /* 自定义金额输入键盘 */;
+			targetProxy = 1B068DC02190180B003955A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B068DA72190180B003955A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B068DA82190180B003955A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B068DAC2190180B003955A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B068DAD2190180B003955A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B068DC62190180B003955A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B068DC72190180B003955A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B068DC92190180B003955A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自定义金额输入键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsadfadsff.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B068DCA2190180B003955A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自定义金额输入键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsadfadsff.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B068DCC2190180B003955A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自定义金额输入键盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsadfadsff.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义金额输入键盘.app/自定义金额输入键盘";
+			};
+			name = Debug;
+		};
+		1B068DCD2190180B003955A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自定义金额输入键盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsadfadsff.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义金额输入键盘.app/自定义金额输入键盘";
+			};
+			name = Release;
+		};
+		1B068DCF2190180B003955A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自定义金额输入键盘UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsadfadsff.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "自定义金额输入键盘";
+			};
+			name = Debug;
+		};
+		1B068DD02190180B003955A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自定义金额输入键盘UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsadfadsff.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "自定义金额输入键盘";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B068D9B2190180B003955A6 /* Build configuration list for PBXProject "自定义金额输入键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B068DC62190180B003955A6 /* Debug */,
+				1B068DC72190180B003955A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B068DC82190180B003955A6 /* Build configuration list for PBXNativeTarget "自定义金额输入键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B068DC92190180B003955A6 /* Debug */,
+				1B068DCA2190180B003955A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B068DCB2190180B003955A6 /* Build configuration list for PBXNativeTarget "自定义金额输入键盘Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B068DCC2190180B003955A6 /* Debug */,
+				1B068DCD2190180B003955A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B068DCE2190180B003955A6 /* Build configuration list for PBXNativeTarget "自定义金额输入键盘UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B068DCF2190180B003955A6 /* Debug */,
+				1B068DD02190180B003955A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B068D982190180B003955A6 /* Project object */;
+}
